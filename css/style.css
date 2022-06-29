@@ -1,0 +1,19 @@
+:root {
+	--color-red: #FF2D20;
+	--color-chinese-black: #141618;
+	--color-flirt: #A40D77;
+	--color-white: #FFFFFF;
+	--color-outer-space: #30353C;
+	--color-liberty: #4662B2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navigation {
+	background-color: var(--color-chinese-black);
+	color: var(--color-white);
+}
