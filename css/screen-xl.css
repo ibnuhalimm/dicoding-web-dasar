@@ -1,3 +1,13 @@
-@media (min-width: 1280px) {
-	/* Our CSS here */
+@media screen and (min-width: 1280px) {
+    .logo {
+        width: 16.33%;
+    }
+
+    .menu {
+        width: 83.67%;
+    }
+
+    .search-nav {
+        width: 320px;
+    }
 }

@@ -1,5 +1,52 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+    .navigation {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .navbar-header {
+        justify-content: start;
+    }
+
+    .navbar-header .logo--link {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .menu {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu .menu--list {
+        padding: 0px;
+    }
+
+    .menu--list li {
+        display: inline-block;
+    }
+
+    .menu--list li a {
+        padding: 0rem .5rem 0rem .5rem;
+    }
+
 	.btn-collapse {
 		display: none;
 	}
+
+    .search-nav {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
 }
