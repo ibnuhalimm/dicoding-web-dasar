@@ -1,15 +1,6 @@
 @media screen and (min-width: 768px) {
-    .navigation {
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem;
-    }
-
     .navbar-header {
         justify-content: start;
-    }
-
-    .navbar-header .logo--link {
-        font-size: 1.5rem;
     }
 
     .logo {

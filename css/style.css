@@ -22,8 +22,8 @@ body {
 
 .navigation {
     border-bottom: 1px solid var(--color-white);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 	background-color: var(--color-chinese-black);
 	color: var(--color-white);
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar-header .logo--link {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--color-red);
     text-decoration: none;
     font-weight: bold;
@@ -89,8 +89,8 @@ body {
 }
 
 .btn-collapse .btn-collapse--icon {
-   width: 1.5rem;
-   height: 1.5rem;
+   width: 1.75rem;
+   height: 1.75rem;
 }
 
 .search-nav {
