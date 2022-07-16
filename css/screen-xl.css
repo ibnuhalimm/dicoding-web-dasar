@@ -1,4 +1,13 @@
 @media screen and (min-width: 1280px) {
+    .navigation {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .navbar-header {
+        max-width: 1200px;
+    }
+
     .logo {
         width: 16.33%;
     }
@@ -9,5 +18,14 @@
 
     .search-nav {
         width: 320px;
+    }
+
+    .search-nav--form {
+        padding: .75rem;
+    }
+
+    .headline--inner {
+        max-width: 1200px;
+        gap: 5rem;
     }
 }

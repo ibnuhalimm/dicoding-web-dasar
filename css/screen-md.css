@@ -40,4 +40,26 @@
         padding-left: 0rem;
         padding-right: 0rem;
     }
+
+
+    .headline {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .headline--inner {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .headline--image,
+    .headline--content {
+        width: 50%;
+    }
+
+    .headline--image {
+        height: 360px;
+    }
 }

@@ -20,6 +20,11 @@ body {
     font-size: 1rem;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .navigation {
     border-bottom: 1px solid var(--color-white);
     padding-top: 1.25rem;
@@ -122,4 +127,83 @@ body {
     outline: none;
     background-color: transparent;
     color: var(--color-black);
+}
+
+
+/* Headline section */
+.headline {
+    padding-top: 1.25rem;
+    padding-bottom: 3rem;
+    background-color: var(--color-chinese-black);
+    color: var(--color-white);
+}
+
+.headline--inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.headline .post--link {
+    color: var(--color-white);
+}
+
+.headline--image {
+    height: 200px;
+}
+
+.headline--image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headline--content {
+    margin-top: 1rem;
+}
+
+.post--tag,
+.post--date {
+    font-size: .75rem;
+}
+
+.post--tag {
+    padding: .25rem 1rem;
+    border-radius: 2rem;
+}
+
+.post--tag.flirt {
+    background-color: var(--color-flirt);
+    color: var(--color-white);
+}
+
+.post--date {
+    margin-left: 1rem;
+}
+
+.post--link {
+    display: block;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.post--link:hover h1,
+.post--link:hover h2 {
+    text-decoration: underline;
+}
+
+.headline--header {
+    margin-top: 1.5rem;
+}
+
+.headline--header h1 {
+    font-size: 1.9rem;
+    line-height: 2.75rem;
+}
+
+.headline--body {
+    margin-top: .5rem;
+}
+
+.headline--body p {
+    line-height: 1.75rem;
 }
