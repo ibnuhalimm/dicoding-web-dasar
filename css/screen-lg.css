@@ -7,4 +7,8 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
+    .post-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

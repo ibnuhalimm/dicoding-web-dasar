@@ -129,6 +129,21 @@ body {
     color: var(--color-black);
 }
 
+.section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.section .section--header h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--color-red);
+}
+
+.section .section--body {
+    margin-top: 2rem;
+}
+
 
 /* Headline section */
 .headline {
@@ -176,8 +191,20 @@ body {
     color: var(--color-white);
 }
 
+.post--tag.liberty {
+    background-color: var(--color-liberty);
+    color: var(--color-white);
+}
+
+.post--tag.auro-metal {
+    background-color: var(--color-auro-metal);
+    color: var(--color-white);
+}
+
+
 .post--date {
     margin-left: 1rem;
+    opacity: .5;
 }
 
 .post--link {
@@ -187,7 +214,10 @@ body {
 }
 
 .post--link:hover h1,
-.post--link:hover h2 {
+.post--link:hover h2,
+.post--link:hover h3,
+.post--link:hover h4,
+.post--link:hover h5 {
     text-decoration: underline;
 }
 
@@ -206,4 +236,34 @@ body {
 
 .headline--body p {
     line-height: 1.75rem;
+}
+
+
+/** Post Section */
+.post-list {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 3rem;
+}
+
+.post--image {
+    height: 200px;
+}
+
+.post--image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post--content {
+    margin-top: 1rem;
+}
+
+.post--link {
+    color: var(--color-chinese-black);
+}
+
+.post--header {
+    margin-top: 1rem;
 }

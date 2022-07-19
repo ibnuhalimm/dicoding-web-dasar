@@ -2,4 +2,12 @@
     .headline--image {
         height: 300px;
     }
+
+    .post-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .post--image {
+        height: 170px;
+    }
 }
