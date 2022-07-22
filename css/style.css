@@ -422,6 +422,15 @@ body {
     font-size: 1.25rem;
 }
 
+aside .developer {
+    margin-bottom: 2.5rem;
+    border-radius: .5rem;
+}
+
+aside .developer--title {
+    margin-top: 0px;
+}
+
 
 .partners {
     padding: 1.5rem;
