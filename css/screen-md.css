@@ -20,6 +20,11 @@
         justify-content: space-between;
     }
 
+    .menu.open {
+        left: auto;
+        width: auto;
+    }
+
     .menu .menu--list {
         padding: 0px;
     }
