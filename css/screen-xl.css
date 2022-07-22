@@ -33,4 +33,13 @@
     .post--image {
         height: 200px;
     }
+
+    .post-detail article {
+        width: 70%;
+    }
+
+    .post-detail aside {
+        width: 30%;
+    }
+
 }

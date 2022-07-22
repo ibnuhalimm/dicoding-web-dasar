@@ -11,4 +11,51 @@
     .post-list {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .headline-detail {
+        height: 320px;
+    }
+
+    .headline-detail .headline-detail--content {
+        grid-column: 1 / span 6;
+    }
+
+    .headline-detail .headline-detail--header {
+        margin-top: 3rem;
+    }
+
+    .headline-detail .headline-detail--image {
+        top: 8rem;
+        grid-column: 8 / span 6;
+        height: 240px;
+    }
+
+    .post-detail {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+
+    .post-detail article {
+        width: 63.33%;
+    }
+
+    .post-detail aside {
+        width: 33.33%;
+    }
+
+    .partners {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .partners .partners--body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .partners .partners--list {
+        grid-template-columns: 1fr;
+    }
 }

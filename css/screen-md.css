@@ -62,4 +62,37 @@
     .headline--image {
         height: 360px;
     }
+
+    .headline-detail {
+        height: 285px;
+    }
+
+    .headline-detail .headline-detail--inner {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .headline-detail .headline-detail--content {
+        grid-column: 1 / span 7;
+    }
+
+    .headline-detail .headline-detail--header {
+        margin-top: 1rem;
+    }
+
+    .headline-detail--header h1 {
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+
+    .headline-detail .headline-detail--image {
+        position: relative;
+        top: -4rem;
+        grid-column: 7 / span 6;
+        height: 200px;
+    }
+
+    .post-detail {
+        padding-top: 6rem;
+    }
 }
