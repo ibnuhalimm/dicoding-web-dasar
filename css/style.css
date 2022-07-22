@@ -404,7 +404,8 @@ body {
 }
 
 .post-detail {
-    padding-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .post-detail p {

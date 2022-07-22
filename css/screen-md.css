@@ -96,8 +96,4 @@
         grid-column: 7 / span 6;
         height: 200px;
     }
-
-    .post-detail {
-        padding-top: 6rem;
-    }
 }
